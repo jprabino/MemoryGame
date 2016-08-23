@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
 
     public final static String EXTRA_MESSAGE = "com.example.juan.spendingmytime.EXTRA_MESSAGE";
 
+    startClockListener startlistener = new StartClockBtnListener();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
