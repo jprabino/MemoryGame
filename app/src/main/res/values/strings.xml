@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Spending My Time</string>
+    <string name="edit_message">Mensaje a Mostrar</string>
+    <string name="button_send">Enviamela</string>
+    <string name="button_workin">Entrar</string>
+    <string name="button_workout">Salir</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
