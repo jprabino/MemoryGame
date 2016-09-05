@@ -1,0 +1,26 @@
+#
+# generated on 2016/09/04 09:52:45
+#
+# --table-start--
+dataClass=com.example.juan.spendingmytime.CheckInOutTimes
+tableName=checkinout
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=in_out
+columnName=in_out
+# --field-end--
+# --field-start--
+fieldName=check_time
+columnName=check_time
+# --field-end--
+# --field-start--
+fieldName=total_hours
+columnName=total_hours
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
