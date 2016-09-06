@@ -9,6 +9,10 @@ import com.j256.ormlite.dao.Dao;
 import java.sql.Date;
 import java.sql.SQLException;
 import java.util.Calendar;
+import java.util.List;
+
+import dbhelper.CheckinDatabaseHelper;
+import dbmodel.CheckInOutTimes;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -37,9 +41,15 @@ public class MainActivity extends ActionBarActivity {
 
         calendar.add(Calendar.HOUR, 8);
 
-        Date outtime = calendar.getTime()
+//        Date outtime = calendar.getTime();
 
-        checkInOutTimesLongDao.create(new CheckInOutTimes("IN", currDateTime, 14))
+        checkInOutTimesLongDao.create(new CheckInOutTimes("IN", currDateTime, (long) 14));
+
+        checkInOutTimesLongDao.create(new CheckInOutTimes("OUT", currDateTime, (long) 15));
+        checkInOutTimesLongDao.create(new CheckInOutTimes("IN", currDateTime, (long) 16));
+        checkInOutTimesLongDao.create(new CheckInOutTimes("OUT", currDateTime, (long) 17));
+
+        List<CheckInOutTimes> checkInOutTimes = checkInOutTimesLongDao.queryForAll();
 
     }
 

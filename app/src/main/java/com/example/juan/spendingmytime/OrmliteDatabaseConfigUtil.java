@@ -6,6 +6,8 @@ import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 
+import dbmodel.CheckInOutTimes;
+
 /**
  * Created by juan on 9/4/16.
  */

@@ -2,7 +2,7 @@
 # generated on 2016/09/04 09:52:45
 #
 # --table-start--
-dataClass=com.example.juan.spendingmytime.CheckInOutTimes
+dataClass=dbmodel.CheckInOutTimes
 tableName=checkinout
 # --table-fields-start--
 # --field-start--
